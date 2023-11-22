@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9492216e-903f-4ff2-93a8-de71169cb9de" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/chair/ModernChair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/chair/VictorianChair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/coffeeTables/ModernCoffeeTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/coffeeTables/VictorianCoffeeTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/furnitureFactories/modernFurnitureFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/furnitureFactories/victorianFurnitureFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/interfaces/Chair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/interfaces/CoffeeTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/interfaces/FurnitureFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/interfaces/Sofa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/sofas/ModernSofa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/sofas/VictorianSofa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/StoreFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/card/IQiYiCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/card/IQiYiCardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/coupon/CouponInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/coupon/CouponResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/coupon/CouponService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/goods/DeliverReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/goods/GoodsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/goods/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/store/ICommodity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/store/impl/CardCommodityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/store/impl/CouponCommodityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/store/impl/GoodsCommodityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/test/java/CommodityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2YWId4L8ZIIoNOwdgaP6GZFK8zm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/designPatterns/creationalPattern/factoryMethod/src/main/java/org/example&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\designPatterns\creationalPattern\factoryMethod\src\main\java\org\example" />
+      <recent name="D:\IdeaProjects\designPatterns\creationalPattern\factoryMethod" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="abstractFactory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="factoryMethod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommodityTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="factoryMethod" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CommodityTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.Main (1)" />
+        <item itemvalue="JUnit.CommodityTest.test" />
+        <item itemvalue="应用程序.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="9492216e-903f-4ff2-93a8-de71169cb9de" name="更改" comment="" />
+      <created>1700634996550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700634996550</updated>
+      <workItem from="1700634998042" duration="7043000" />
+      <workItem from="1700643916343" duration="5138000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
