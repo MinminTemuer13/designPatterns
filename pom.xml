@@ -12,6 +12,7 @@
         <module>creationalPattern</module>
         <module>creationalPattern/factoryMethod</module>
         <module>creationalPattern/abstractFactory</module>
+        <module>creationalPattern/builder</module>
     </modules>
 
     <properties>
@@ -41,6 +42,12 @@
             <groupId>org.slf4j</groupId>
             <artifactId>jcl-over-slf4j</artifactId>
             <version>1.7.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.4</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>

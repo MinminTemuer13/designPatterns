@@ -4,48 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9492216e-903f-4ff2-93a8-de71169cb9de" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/chair/ModernChair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/chair/VictorianChair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/coffeeTables/ModernCoffeeTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/coffeeTables/VictorianCoffeeTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/furnitureFactories/modernFurnitureFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/furnitureFactories/victorianFurnitureFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/interfaces/Chair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/interfaces/CoffeeTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/interfaces/FurnitureFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/interfaces/Sofa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/sofas/ModernSofa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/abstractFactory/src/main/java/org/example/sofas/VictorianSofa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/StoreFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/card/IQiYiCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/card/IQiYiCardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/coupon/CouponInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/coupon/CouponResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/coupon/CouponService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/goods/DeliverReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/goods/GoodsInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/goods/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/store/ICommodity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/store/impl/CardCommodityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/store/impl/CouponCommodityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/main/java/org/example/store/impl/GoodsCommodityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/factoryMethod/src/test/java/CommodityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="9492216e-903f-4ff2-93a8-de71169cb9de" name="更改" comment="init 设计模式">
+      <change afterPath="$PROJECT_DIR$/creationalPattern/builder/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/builder/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/builder/src/main/java/org/example/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/builder/src/main/java/org/example/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/builder/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/builder/src/main/java/org/example/builders/CarBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/builder/src/main/java/org/example/builders/CarManualBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/builder/src/main/java/org/example/plainObjects/AdvencedComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/builder/src/main/java/org/example/plainObjects/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/builder/src/main/java/org/example/plainObjects/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/builder/src/main/java/org/example/plainObjects/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/builder/src/main/java/org/example/plainObjects/Manual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/builder/src/main/java/org/example/plainObjects/PlainComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/builder/src/main/java/org/example/plainObjects/PlainEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creationalPattern/builder/src/main/java/org/example/plainObjects/SportEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +63,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -95,10 +73,23 @@
       <recent name="D:\IdeaProjects\designPatterns\creationalPattern\factoryMethod" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="应用程序.builder">
+    <configuration name="abstractFactory" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="abstractFactory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="builder" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="builder" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -109,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="factoryMethod" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="factoryMethod" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +123,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.CommodityTest.test" />
+      <item itemvalue="应用程序.builder" />
+      <item itemvalue="应用程序.factoryMethod" />
+      <item itemvalue="应用程序.abstractFactory" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Main (1)" />
+        <item itemvalue="应用程序.builder" />
+        <item itemvalue="应用程序.abstractFactory" />
         <item itemvalue="JUnit.CommodityTest.test" />
-        <item itemvalue="应用程序.Main" />
+        <item itemvalue="应用程序.factoryMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -149,14 +147,38 @@
       <option name="presentableId" value="Default" />
       <updated>1700634996550</updated>
       <workItem from="1700634998042" duration="7043000" />
-      <workItem from="1700643916343" duration="5138000" />
+      <workItem from="1700643916343" duration="6547000" />
+      <workItem from="1700732426723" duration="6632000" />
+      <workItem from="1700743446017" duration="399000" />
     </task>
+    <task id="LOCAL-00001" summary="init 设计模式">
+      <option name="closed" value="true" />
+      <created>1700654415676</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700654415676</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init 设计模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="init 设计模式" />
   </component>
 </project>
