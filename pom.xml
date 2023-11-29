@@ -13,6 +13,10 @@
         <module>creationalPattern/factoryMethod</module>
         <module>creationalPattern/abstractFactory</module>
         <module>creationalPattern/builder</module>
+        <module>creationalPattern/prototype</module>
+        <module>trySomething</module>
+        <module>creationalPattern/singleton</module>
+        <module>creationalPattern/singleton</module>
     </modules>
 
     <properties>
