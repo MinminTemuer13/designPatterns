@@ -17,6 +17,7 @@
         <module>trySomething</module>
         <module>creationalPattern/singleton</module>
         <module>creationalPattern/singleton</module>
+        <module>structuralPattern</module>
     </modules>
 
     <properties>

@@ -17,6 +17,10 @@
     <file url="file://$PROJECT_DIR$/creationalPattern/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structuralPattern/adapter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structuralPattern/adapter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structuralPattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structuralPattern/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/trySomething/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/trySomething/src/main/resources" charset="UTF-8" />
   </component>

@@ -4,23 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9492216e-903f-4ff2-93a8-de71169cb9de" name="更改" comment="feature 1.3 builder">
-      <change afterPath="$PROJECT_DIR$/creationalPattern/prototype/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/prototype/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/prototype/src/main/java/org/example/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/prototype/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/prototype/src/main/java/org/example/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/prototype/src/main/java/org/example/shapes/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/prototype/src/main/java/org/example/shapes/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/singleton/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/singleton/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/singleton/src/main/java/org/example/MDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creationalPattern/singleton/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trySomething/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trySomething/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trySomething/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trySomething/src/main/java/org/example/SubClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trySomething/src/main/java/org/example/SuperClass.java" afterDir="false" />
+    <list default="true" id="9492216e-903f-4ff2-93a8-de71169cb9de" name="更改" comment="feature 1.4 prototype + singleton">
+      <change afterPath="$PROJECT_DIR$/structuralPattern/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralPattern/adapter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralPattern/adapter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralPattern/adapter/src/main/java/org/example/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralPattern/adapter/src/main/java/org/example/ClientInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralPattern/adapter/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralPattern/adapter/src/main/java/org/example/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralPattern/adapter/src/main/java/org/example/dataStructure/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralPattern/adapter/src/main/java/org/example/dataStructure/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralPattern/adapter/src/main/java/org/example/dataStructure/SpecialData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralPattern/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -75,13 +70,13 @@
       <recent name="D:\IdeaProjects\designPatterns\creationalPattern\factoryMethod" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.singleton">
-    <configuration name="abstractFactory" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="应用程序.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="abstractFactory" />
+      <module name="adapter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.enums.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,19 +137,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="应用程序.Main" />
       <item itemvalue="应用程序.singleton" />
       <item itemvalue="应用程序.prototype" />
       <item itemvalue="应用程序.trySomething" />
       <item itemvalue="应用程序.builder" />
-      <item itemvalue="应用程序.abstractFactory" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Main" />
         <item itemvalue="应用程序.singleton" />
         <item itemvalue="应用程序.prototype" />
         <item itemvalue="应用程序.trySomething" />
         <item itemvalue="应用程序.builder" />
-        <item itemvalue="应用程序.abstractFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +166,8 @@
       <workItem from="1700732426723" duration="6632000" />
       <workItem from="1700743446017" duration="399000" />
       <workItem from="1700816176649" duration="8932000" />
-      <workItem from="1701256105052" duration="1068000" />
+      <workItem from="1701256105052" duration="5249000" />
+      <workItem from="1701342894953" duration="1240000" />
     </task>
     <task id="LOCAL-00001" summary="init 设计模式">
       <option name="closed" value="true" />
@@ -189,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700816323578</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feature 1.4 prototype + singleton">
+      <option name="closed" value="true" />
+      <created>1701257252879</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701257252879</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +214,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init 设计模式" />
     <MESSAGE value="feature 1.3 builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature 1.3 builder" />
+    <MESSAGE value="feature 1.4 prototype + singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature 1.4 prototype + singleton" />
   </component>
 </project>
