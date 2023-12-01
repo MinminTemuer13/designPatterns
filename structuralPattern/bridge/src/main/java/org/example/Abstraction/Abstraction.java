@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import org.example.Implementation.Implementation;
 
 @AllArgsConstructor
-public class Abstraction {
+abstract public class Abstraction {
     Implementation implementation;
 
     public void feature1() {
