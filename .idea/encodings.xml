@@ -25,6 +25,12 @@
     <file url="file://$PROJECT_DIR$/structuralPattern/composite/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/structuralPattern/facade/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/structuralPattern/facade/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structuralPattern/flyweight/character/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structuralPattern/flyweight/character/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structuralPattern/flyweight/raw/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structuralPattern/flyweight/raw/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structuralPattern/flyweight/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structuralPattern/flyweight/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/structuralPattern/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/structuralPattern/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/structuralPattern/wrapper/src/main/java" charset="UTF-8" />
