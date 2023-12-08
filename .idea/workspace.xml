@@ -4,23 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9492216e-903f-4ff2-93a8-de71169cb9de" name="更改" comment="feature 2.5 facade">
-      <change afterPath="$PROJECT_DIR$/structuralPattern/flyweight/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralPattern/flyweight/character/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralPattern/flyweight/character/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralPattern/flyweight/character/src/main/java/org/example/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralPattern/flyweight/character/src/main/java/org/example/CharacterFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralPattern/flyweight/character/src/main/java/org/example/CharacterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralPattern/flyweight/character/src/main/java/org/example/ConcreteCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralPattern/flyweight/character/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralPattern/flyweight/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralPattern/flyweight/raw/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralPattern/flyweight/raw/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralPattern/flyweight/raw/src/main/java/org/example/ConcreteFlyweight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralPattern/flyweight/raw/src/main/java/org/example/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralPattern/flyweight/raw/src/main/java/org/example/Flyweight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralPattern/flyweight/raw/src/main/java/org/example/FlyweightFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structuralPattern/flyweight/raw/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="9492216e-903f-4ff2-93a8-de71169cb9de" name="更改" comment="feature 2.6 flyweight">
+      <change afterPath="$PROJECT_DIR$/structuralPattern/proxy/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralPattern/proxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralPattern/proxy/src/main/java/org/example/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralPattern/proxy/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralPattern/proxy/src/main/java/org/example/MassImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structuralPattern/proxy/src/main/java/org/example/MassImageProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/structuralPattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/structuralPattern/pom.xml" afterDir="false" />
@@ -67,8 +57,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
@@ -78,21 +68,12 @@
       <recent name="D:\IdeaProjects\designPatterns\creationalPattern\factoryMethod\src\main\java\org\example" />
       <recent name="D:\IdeaProjects\designPatterns\creationalPattern\factoryMethod" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\designPatterns\structuralPattern\flyweight\character\src\test\java" />
+      <recent name="D:\IdeaProjects\designPatterns\structuralPattern\proxy" />
+    </key>
   </component>
-  <component name="RunManager" selected="应用程序.flyweight">
-    <configuration name="composite" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="composite" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="应用程序.proxy">
     <configuration name="facade" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="facade" />
@@ -132,6 +113,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="proxy" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="wrapper" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="wrapper" />
@@ -146,19 +140,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="应用程序.proxy" />
       <item itemvalue="应用程序.flyweight" />
       <item itemvalue="应用程序.flyweight-character" />
       <item itemvalue="应用程序.facade" />
       <item itemvalue="应用程序.wrapper" />
-      <item itemvalue="应用程序.composite" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.proxy" />
         <item itemvalue="应用程序.flyweight" />
         <item itemvalue="应用程序.flyweight-character" />
         <item itemvalue="应用程序.facade" />
         <item itemvalue="应用程序.wrapper" />
-        <item itemvalue="应用程序.composite" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +175,7 @@
       <workItem from="1701499223894" duration="7937000" />
       <workItem from="1701660163603" duration="957000" />
       <workItem from="1701851814772" duration="7975000" />
+      <workItem from="1702024994811" duration="5780000" />
     </task>
     <task id="LOCAL-00001" summary="init 设计模式">
       <option name="closed" value="true" />
@@ -262,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701523500458</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feature 2.6 flyweight">
+      <option name="closed" value="true" />
+      <created>1702025095374</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702025095375</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +294,7 @@
     <MESSAGE value="feature 2.4 wrapper" />
     <MESSAGE value="fix 2.4 wrapper" />
     <MESSAGE value="feature 2.5 facade" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature 2.5 facade" />
+    <MESSAGE value="feature 2.6 flyweight" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature 2.6 flyweight" />
   </component>
 </project>

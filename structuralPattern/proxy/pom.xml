@@ -5,23 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.example</groupId>
-        <artifactId>designPatterns</artifactId>
+        <artifactId>structuralPattern</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>structuralPattern</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>adapter</module>
-        <module>bridge</module>
-        <module>composite</module>
-        <module>wrapper</module>
-        <module>facade</module>
-        <module>flyweight</module>
-        <module>flyweight/character</module>
-        <module>flyweight/raw</module>
-        <module>proxy</module>
-    </modules>
+    <artifactId>proxy</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
