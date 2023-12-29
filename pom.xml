@@ -18,6 +18,8 @@
         <module>creationalPattern/singleton</module>
         <module>creationalPattern/singleton</module>
         <module>structuralPattern</module>
+        <module>behavioralPattern</module>
+        <module>behavioralPattern/CoR</module>
     </modules>
 
     <properties>
