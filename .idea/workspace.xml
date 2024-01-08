@@ -4,32 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9492216e-903f-4ff2-93a8-de71169cb9de" name="更改" comment="feature 2.7 proxy">
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/CoR/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/CoR/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/CoR/src/main/java/org/example/ChainBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/CoR/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/CoR/src/main/java/org/example/handlers/BaseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/CoR/src/main/java/org/example/handlers/ConcreteHandler1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/CoR/src/main/java/org/example/handlers/ConcreteHandler2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/CoR/src/main/java/org/example/handlers/ConcreteHandler3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/CoR/src/main/java/org/example/handlers/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/commandImpl/CopyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/commandImpl/PasteCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/receiver/Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/sender/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/sender/CopyButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/sender/PasteButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/sender/UndoButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="9492216e-903f-4ff2-93a8-de71169cb9de" name="更改" comment="feature 3.1 CoR">
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/commands/CopilotSendMessageCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/commands/CopilotUndoSendMessageCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/commands/OpenCopilotCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/commands/ShutDownCopilotCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/invokers/CopilotShortCut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/invokers/Invoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/invokers/SendButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/invokers/UndoButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/invokers/X.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/receivers/Copilot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/receivers/Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -92,10 +81,10 @@
       <recent name="org.example.handlers" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="应用程序.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="CoR" />
+      <module name="Command" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -106,9 +95,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="facade" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="facade" />
+      <module name="CoR" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -159,19 +148,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="应用程序.Main (1)" />
       <item itemvalue="应用程序.Main" />
       <item itemvalue="应用程序.proxy" />
       <item itemvalue="应用程序.flyweight" />
       <item itemvalue="应用程序.flyweight-character" />
-      <item itemvalue="应用程序.facade" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Main (1)" />
         <item itemvalue="应用程序.Main" />
         <item itemvalue="应用程序.proxy" />
         <item itemvalue="应用程序.flyweight" />
         <item itemvalue="应用程序.flyweight-character" />
-        <item itemvalue="应用程序.facade" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +185,9 @@
       <workItem from="1701851814772" duration="7975000" />
       <workItem from="1702024994811" duration="7632000" />
       <workItem from="1703754948557" duration="3406000" />
-      <workItem from="1703815662183" duration="4320000" />
+      <workItem from="1703815662183" duration="4531000" />
+      <workItem from="1704357202853" duration="1809000" />
+      <workItem from="1704703584915" duration="3724000" />
     </task>
     <task id="LOCAL-00001" summary="init 设计模式">
       <option name="closed" value="true" />
@@ -294,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702034105872</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feature 3.1 CoR">
+      <option name="closed" value="true" />
+      <created>1703836194112</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703836194112</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +324,7 @@
     <MESSAGE value="feature 2.5 facade" />
     <MESSAGE value="feature 2.6 flyweight" />
     <MESSAGE value="feature 2.7 proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature 2.7 proxy" />
+    <MESSAGE value="feature 3.1 CoR" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature 3.1 CoR" />
   </component>
 </project>
