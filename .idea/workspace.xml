@@ -4,21 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9492216e-903f-4ff2-93a8-de71169cb9de" name="更改" comment="feature 3.1 CoR">
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/commands/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/commands/CopilotSendMessageCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/commands/CopilotUndoSendMessageCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/commands/OpenCopilotCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/commands/ShutDownCopilotCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/invokers/CopilotShortCut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/invokers/Invoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/invokers/SendButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/invokers/UndoButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/invokers/X.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/receivers/Copilot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/receivers/Manager.java" afterDir="false" />
+    <list default="true" id="9492216e-903f-4ff2-93a8-de71169cb9de" name="更改" comment="feature 3.2 Command">
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Iterator/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Iterator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Iterator/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Iterator/src/main/java/org/example/bases/BinaryTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Iterator/src/main/java/org/example/iterableCollections/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Iterator/src/main/java/org/example/iterableCollections/IterableCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Iterator/src/main/java/org/example/iterableCollections/LinkedListCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Iterator/src/main/java/org/example/iterators/BreathFirstBTIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Iterator/src/main/java/org/example/iterators/DeepFirstBTIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Iterator/src/main/java/org/example/iterators/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioralPattern/Iterator/src/main/java/org/example/iterators/LinkedListIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/behavioralPattern/Command/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavioralPattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/behavioralPattern/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -81,7 +81,7 @@
       <recent name="org.example.handlers" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Main (1)">
+  <component name="RunManager" selected="应用程序.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Command" />
@@ -95,9 +95,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="CoR" />
+      <module name="Iterator" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -149,18 +149,14 @@
     </configuration>
     <list>
       <item itemvalue="应用程序.Main (1)" />
-      <item itemvalue="应用程序.Main" />
-      <item itemvalue="应用程序.proxy" />
+      <item itemvalue="应用程序.Main (2)" />
       <item itemvalue="应用程序.flyweight" />
       <item itemvalue="应用程序.flyweight-character" />
+      <item itemvalue="应用程序.proxy" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Main (1)" />
-        <item itemvalue="应用程序.Main" />
-        <item itemvalue="应用程序.proxy" />
-        <item itemvalue="应用程序.flyweight" />
-        <item itemvalue="应用程序.flyweight-character" />
+        <item itemvalue="应用程序.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +183,11 @@
       <workItem from="1703754948557" duration="3406000" />
       <workItem from="1703815662183" duration="4531000" />
       <workItem from="1704357202853" duration="1809000" />
-      <workItem from="1704703584915" duration="3724000" />
+      <workItem from="1704703584915" duration="5220000" />
+      <workItem from="1704711294151" duration="2561000" />
+      <workItem from="1704778839333" duration="1945000" />
+      <workItem from="1704788981752" duration="6251000" />
+      <workItem from="1704866607082" duration="1463000" />
     </task>
     <task id="LOCAL-00001" summary="init 设计模式">
       <option name="closed" value="true" />
@@ -293,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703836194112</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feature 3.2 Command">
+      <option name="closed" value="true" />
+      <created>1704707507633</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1704707507633</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +333,7 @@
     <MESSAGE value="feature 2.6 flyweight" />
     <MESSAGE value="feature 2.7 proxy" />
     <MESSAGE value="feature 3.1 CoR" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature 3.1 CoR" />
+    <MESSAGE value="feature 3.2 Command" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature 3.2 Command" />
   </component>
 </project>
