@@ -5,19 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.example</groupId>
-        <artifactId>designPatterns</artifactId>
+        <artifactId>behavioralPattern</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>behavioralPattern</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>Command</module>
-        <module>Iterator</module>
-        <module>Mediator</module>
-        <module>Momento</module>
-        <module>CommandXMomento</module>
-    </modules>
+    <artifactId>Momento</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
