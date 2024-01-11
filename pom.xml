@@ -9,17 +9,17 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>creationalPattern</module>
-        <module>creationalPattern/factoryMethod</module>
-        <module>creationalPattern/abstractFactory</module>
-        <module>creationalPattern/builder</module>
-        <module>creationalPattern/prototype</module>
-        <module>trySomething</module>
-        <module>creationalPattern/singleton</module>
-        <module>creationalPattern/singleton</module>
-        <module>structuralPattern</module>
-        <module>behavioralPattern</module>
-        <module>behavioralPattern/CoR</module>
+        <module>CreationalPattern</module>
+        <module>CreationalPattern/FactoryMethod</module>
+        <module>CreationalPattern/AbstractFactory</module>
+        <module>CreationalPattern/Builder</module>
+        <module>CreationalPattern/Prototype</module>
+        <module>TrySomething</module>
+        <module>CreationalPattern/Singleton</module>
+        <module>CreationalPattern/Singleton</module>
+        <module>StructuralPattern</module>
+        <module>BehavioralPattern</module>
+        <module>BehavioralPattern/CoR</module>
     </modules>
 
     <properties>
